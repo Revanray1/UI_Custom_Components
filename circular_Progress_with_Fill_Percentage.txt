@@ -1,4 +1,4 @@
-// Also added common component  like colorpercentageFill. you can find in the same repo
+// Also added common component  like colorpercentageFill. you can find ProgressBar_CircleFill_Common_Component.tsx  in the same repo
 // Circular progress with filling percentsge .  like water ->  (-)  > (_)
 
 <div style={{ border: "2px solid black", height: "60px", width: "60px", borderRadius: "0%", background: "pink", position:"relative", overflow:""}}>
