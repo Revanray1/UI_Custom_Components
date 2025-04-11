@@ -1,0 +1,33 @@
+# one method using translate
+<div style={{ border: "2px solid green", height: '200px', width: "200px", position: "relative" }}>
+
+        <div style={{
+          border: "2px solid red",
+          height: "50px", width: "50px", position: "absolute", top: "50%", left: "50%", transform: 'translate(-50%, -50%)'
+        }}>
+
+        </div>
+
+      </div>
+
+
+
+
+# two method using flex
+      <div style={{
+        border: "2px solid green",
+        height: '200px',
+        width: "200px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
+      }}>
+
+          <div style={{
+            border: "2px solid red",
+            height: "50px",
+            width: "50px"
+          }}>
+          </div>
+
+      </div>
